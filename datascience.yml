@@ -1,0 +1,27 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - bokeh
+  - cython
+  - dask
+  - dask-core
+  - ipython
+  - jinja2
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - keras
+  - python=3.5
+  - setuptools
+  - pip:
+    - dask-ml==0.11.0
+    - geopandas==0.4.0
+    - graphviz==0.10.1
+    - numba==0.41.0
+    - scikit-learn==0.20.1
+    - scipy==1.1.0
+    - seaborn==0.9.0
+    - sklearn==0.0
