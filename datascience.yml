@@ -1,11 +1,14 @@
 channels:
   - defaults
   - conda-forge
+  - anaconda
 dependencies:
   - bokeh
   - cython
   - dask
   - dask-core
+  - flask
+  - flask-sqlalchemy
   - ipython
   - jinja2
   - jupyter
@@ -13,8 +16,8 @@ dependencies:
   - numpy
   - pandas
   - pip
+  - python=3.6
   - keras
-  - python=3.5
   - setuptools
   - pip:
     - dask-ml==0.11.0
