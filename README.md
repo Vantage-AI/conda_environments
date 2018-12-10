@@ -1,2 +1,3 @@
 # conda_environments
-Files with standardised conda environment files
+This repo contains .yml files with standardised conda environments. To use:
+conda env create -f [file-name] -n [environment-name]
