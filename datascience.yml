@@ -22,6 +22,7 @@ dependencies:
   - pip:
     - dask-ml==0.11.0
     - geopandas==0.4.0
+    - descartes
     - graphviz==0.10.1
     - numba==0.41.0
     - scikit-learn==0.20.1
